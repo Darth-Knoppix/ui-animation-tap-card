@@ -7997,7 +7997,7 @@ react-dev-utils@^9.1.0:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.12.0:
+react-dom@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
   integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
@@ -8016,6 +8016,10 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "16.10.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.1.tgz#0612786bf19df406502d935494f0450b40b8294f"
   integrity sha512-BXUMf9sIOPXXZWqr7+c5SeOKJykyVr2u0UDzEf4LNGc6taGkQe1A9DFD07umCIXz45RLr9oAAwZbAJ0Pkknfaw==
+
+"react-phone-show@git+ssh://git@github.com:Darth-Knoppix/react-phone-show.git":
+  version "1.0.0"
+  resolved "git+ssh://git@github.com:Darth-Knoppix/react-phone-show.git#f02ec23a099f2d343258c3ee58d31c56807ae23c"
 
 react-scripts@3.2.0:
   version "3.2.0"
@@ -8078,7 +8082,7 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.12.0:
+react@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==

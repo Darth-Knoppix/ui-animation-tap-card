@@ -1,8 +1,10 @@
 {
-  "name": "tap-card",
+  "name": "ui-animation-tap-card",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@darth-knoppix/react-phone-show": "1.0.5",
+    "framer-motion": "^1.6.17",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0"

@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Override - move to upstream */
+#root > div {
+  height: auto;
+  grid-template-rows: 10rem 1fr 1fr;
 }
 
 code {
@@ -41,6 +49,7 @@ code {
   box-sizing: border-box;
   min-width: calc(100% - 2rem);
   position: relative;
+  scrollbar-width: none;
 }
 
 .card-wrapper {

@@ -4,19 +4,21 @@ import { motion, useCycle } from "framer-motion";
 export default function Card({ title, image, onToggleFocus }) {
   const [animate, cycleCard] = useCycle(
     {
-      card: {
-        padding: 16
-      },
+      card: { padding: "1rem" },
       image: {
-        width: "100%"
+        width: "100%",
+        marginLeft: "0rem",
+        marginRight: "0rem",
+        marginTop: "0rem"
       }
     },
     {
-      card: {
-        padding: 0
-      },
+      card: { padding: "0rem" },
       image: {
-        width: "125%"
+        width: "125%",
+        marginLeft: "-3rem",
+        marginRight: "-3rem",
+        marginTop: "-1rem"
       }
     }
   );
@@ -29,9 +31,8 @@ export default function Card({ title, image, onToggleFocus }) {
         onToggleFocus();
       }}
       animate={animate.card}
-      transition={{
-        ease: "anticipate"
-      }}
+      initial={{ padding: "1rem" }}
+      transition={{ ease: "easeOut", delay: 0.1 }}
     >
       <div className="card">
         <figure className="card-image-container">
@@ -41,7 +42,12 @@ export default function Card({ title, image, onToggleFocus }) {
               src={image}
               alt=""
               animate={animate.image}
-              transition={{ ease: "easeIn" }}
+              initial={{
+                marginLeft: "0rem",
+                marginRight: "0rem",
+                marginTop: "0rem"
+              }}
+              transition={{ ease: "easeOut" }}
             />
           </div>
           <figcaption>

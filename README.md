@@ -2,6 +2,8 @@
 
 ### How to achieve with animated state transitions with the useCycle hook
 
+[Demo](https://tap-expand-fm.sethcorker.com/)
+
 Watch the video tutorial:
 
 [![Title card showing Expand Card React Animation using Framer Motion](http://img.youtube.com/vi/JSfR4GOgCnk/0.jpg)](http://www.youtube.com/watch?v=JSfR4GOgCnk)

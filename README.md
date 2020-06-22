@@ -9,3 +9,5 @@ Watch the video tutorial:
 [![Title card showing Expand Card React Animation using Framer Motion](http://img.youtube.com/vi/JSfR4GOgCnk/0.jpg)](http://www.youtube.com/watch?v=JSfR4GOgCnk)
 
 Tap the card to expand. Multiple animations play to transition between the expanded and collapsed states. Scroll horizontally to move between cards.
+
+If you're interested in seeing how these animations were creating in React, take a look at the [blog post I wrote detailing the tap to expand interaction](https://blog.sethcorker.com/react-animation-tap-to-expand).
